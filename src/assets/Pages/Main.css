@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  background-color: white;
+  max-width: 800px;
+  width: 100%;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-top: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  margin-bottom: 10px;
+  color: #333;
+  width: 100%;
+}
+
+input, select {
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Adjust as needed */
+  margin-right: 40px;
+}
+
+textarea {
+  height: 150px; /* Adjust as needed */
+}
+
+.react-quill {
+  height: 200px !important; /* Adjust as needed */
+}
+
+
+
+
